@@ -40,7 +40,7 @@ input[
     width: 90px;
     height: 80px;
     color: #fff;
-    background-color: black;
+    background-color: rgb(121, 10, 43);
     border: none !important;  
     cursor: pointer;
     transition: 0.2 ease ease-in-out;
