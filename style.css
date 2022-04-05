@@ -12,9 +12,9 @@ body{
 .calculatorBody{
 
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     width: 400px;
     height: 500px; 
 
@@ -24,9 +24,11 @@ table{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1);
     border: 2px solid;
+    border-collapse: collapse;
 
 }
 td{
+  
     text-align: center;
     color: #fff1;
     border: 2px solid #191919;
@@ -43,6 +45,7 @@ input[
     cursor: pointer;
     transition: 0.2 ease ease-in-out;
     outline: none !important;
+    font-size: 20px;
 
 }
 
@@ -66,4 +69,5 @@ input[
     padding: 2px;
     outline: none !important;
     border: none !important;
+    font-size: 35px;
 }
